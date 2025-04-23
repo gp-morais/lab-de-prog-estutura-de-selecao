@@ -22,9 +22,9 @@ public class ex4 {
             System.out.print("O valor de y é: "+ dc.format(y));
 
                                                             }
-            else{
+            else {
             System.out.print("Digite um valor valido.");
-                                                            }
+        }
 
 
 
