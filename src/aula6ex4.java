@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class ex4 {
+public class aula6ex4 {
     public static void main(String[] args) {
 
         DecimalFormat dc = new DecimalFormat("0.00");

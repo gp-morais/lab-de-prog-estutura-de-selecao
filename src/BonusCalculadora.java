@@ -1,15 +1,14 @@
-import java.util.Locale;
 import java.util.Scanner;
 
-public class calculadora {
+public class BonusCalculadora {
     public static void main(String[] args) {
-
+//varivaeis
         Scanner teclado = new Scanner(System.in);
         int valor1, valor2;
         double resultado;
         String opcao;
 
-
+//escolha do operador
         System.out.println("(A)dição");
         System.out.println("(S)ubtração");
         System.out.println("(M)utiplicação");
@@ -19,7 +18,7 @@ public class calculadora {
         opcao = opcao.toLowerCase();
 
 
-
+// execução logica
         if (opcao.equals("a")|| opcao.equals("s") || opcao.equals("m") || opcao.equals("d") ){
             System.out.println("informe o primeiro valor: ");
             valor1 = teclado.nextInt();

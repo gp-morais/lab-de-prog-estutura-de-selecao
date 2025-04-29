@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex5 {
+public class aula6ex5 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
